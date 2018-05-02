@@ -6,4 +6,5 @@ indeed_data$educationRequirement[indeed_data$educationRequirement == "High schoo
 indeed_data$educationRequirement[indeed_data$educationRequirement == "Higher education"] <- "2"
 
 indeed_data$educationRequirement <- as.factor(indeed_data$educationRequirement)
+#comment
 
